@@ -5,7 +5,7 @@ import { menuImage } from "@/lib/menu-images";
 import { useMemo, useState } from "react";
 import { FerrisWheel, Heart, Search, SlidersHorizontal } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logoAsset from "@/assets/ummasbun-coffee-logo.jpeg.asset.json";
+const logoAsset = { url: "/menu/ec4251e9-ummasbun-coffee-logo.jpeg" };
 import { ProductSheet } from "@/components/menu/ProductSheet";
 import { CommentBox } from "@/components/menu/CommentBox";
 import { GuestWheel } from "@/components/menu/GuestWheel";
